@@ -1,6 +1,6 @@
-📊 ###Credit Portfolio SQL Analysis
-📌 Project Overview
+📊### Credit Portfolio SQL Analysis
 
+📌## Project Overview
 This project analyzes a synthetic credit loan portfolio using SQL.
 The goal is to demonstrate portfolio-level credit analytics, including exposure, defaults, and payment behavior.
 
@@ -77,5 +77,7 @@ Comparison to portfolio average (window functions)
 
 ⚠️ Disclaimer
 This project uses synthetic data and does not represent real customer information.
+
+
 
 
