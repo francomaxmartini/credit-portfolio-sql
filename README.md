@@ -1,4 +1,4 @@
-📊 Credit Portfolio SQL Analysis
+📊 ###Credit Portfolio SQL Analysis
 📌 Project Overview
 
 This project analyzes a synthetic credit loan portfolio using SQL.
@@ -77,4 +77,5 @@ Comparison to portfolio average (window functions)
 
 ⚠️ Disclaimer
 This project uses synthetic data and does not represent real customer information.
+
 
