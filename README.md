@@ -1,12 +1,13 @@
-📊### Credit Portfolio SQL Analysis
+# 📊Credit Portfolio SQL Analysis
 
-📌## Project Overview
-This project analyzes a synthetic credit loan portfolio using SQL.
-The goal is to demonstrate portfolio-level credit analytics, including exposure, defaults, and payment behavior.
+## 📌Project Overview
+This project analyzes a **synthetic credit loan portfolio** using SQL.
+The goal is to demonstrate **portfolio-level credit analytics**, including exposure, defaults, and payment behavior.
 
-The project is intentionally focused on SQL querying and data modeling, with visualization (Power BI) planned as a later step.
+The project is intentionally focused on **SQL querying and data modeling**, with visualization (Power BI) planned as a later step.
 
-🗂️ Project Structure
+## 🗂️ Project Structure
+```
 credit-portfolio-sql/
 │
 ├── data/
@@ -27,56 +28,57 @@ credit-portfolio-sql/
 │   └── query4_payment_behavior.png
 │
 └── README.md
+```
 
-🛠️ Tech Stack
-PostgreSQL
-SQL (CTEs, conditional aggregation, window functions)
-Synthetic CSV data
+## 🛠️ Tech Stack
+- **PostgreSQL**
+- SQL (CTEs, conditional aggregation, window functions)
+- Synthetic CSV data
 
-📁 Dataset Description
-All data used in this project is synthetic but realistic, created for public sharing and portfolio use.
+## 📁 Dataset Description
+All data used in this project is **synthetic but realistic**, created for public sharing and portfolio use.
 
-customers.csv
-Customer demographics and region
+- **customers.csv**
+    Customer demographics and region
 
-loans.csv
-Loan characteristics and status (Active, Defaulted, Closed)
+- **loans.csv**
+    Loan characteristics and status (Active, Defaulted, Closed)
 
-payments.csv
-Historical payment behavior (On-time, Late, Missed)
+- **payments.csv**
+    Historical payment behavior (On-time, Late, Missed)
 
-📈 Analytical Queries
-1️⃣ Portfolio Overview
+## 📈 Analytical Queries
 
-Total number of loans
-Total exposure
-Active vs defaulted exposure
-Portfolio default rate
+### 1️⃣ Portfolio Overview
+- Total number of loans
+- Total exposure
+- Active vs defaulted exposure
+- Portfolio default rate
 
-📄 SQL: 02_portfolio_overview.sql
-📷 Output: query2_portfolio_overview.png
+📄 SQL: `02_portfolio_overview.sql`
+📷 Output: `query2_portfolio_overview.png`
 
-2️⃣ Exposure by Region
+### 2️⃣ Exposure by Region
+- Exposure split by region
+- Defaulted exposure
+- Default rate per region
 
-Exposure split by region
-Defaulted exposure
-Default rate per region
+📄 SQL: `03_exposure_by_region.sql`
+📷 Output: `query3_exposure_by_region.png`
 
-📄 SQL: 03_exposure_by_region.sql
-📷 Output: query3_exposure_by_region.png
+### 3️⃣ Payment Behavior Analysis
+- Total payments per loan
+- Late and missed payments
+- Late payment ratio
+- Comparison to portfolio average (window functions)
 
-3️⃣ Payment Behavior Analysis
+📄 SQL: `04_payment_behavior.sql`
+📷 Output: `query4_payment_behavior.png`
 
-Total payments per loan
-Late and missed payments
-Late payment ratio
-Comparison to portfolio average (window functions)
+## ⚠️ Disclaimer
+This project uses **synthetic data** and does not represent real customer information.
 
-📄 SQL: 04_payment_behavior.sql
-📷 Output: query4_payment_behavior.png
 
-⚠️ Disclaimer
-This project uses synthetic data and does not represent real customer information.
 
 
 
