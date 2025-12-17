@@ -39,13 +39,13 @@ credit-portfolio-sql/
 All data used in this project is **synthetic but realistic**, created for public sharing and portfolio use.
 
 - **customers.csv**
-    Customer demographics and region
+Customer demographics and region
 
 - **loans.csv**
-    Loan characteristics and status (Active, Defaulted, Closed)
+Loan characteristics and status (Active, Defaulted, Closed)
 
 - **payments.csv**
-    Historical payment behavior (On-time, Late, Missed)
+Historical payment behavior (On-time, Late, Missed)
 
 ## 📈 Analytical Queries
 
@@ -56,6 +56,7 @@ All data used in this project is **synthetic but realistic**, created for public
 - Portfolio default rate
 
 📄 SQL: `02_portfolio_overview.sql`
+
 📷 Output: `query2_portfolio_overview.png`
 
 ### 2️⃣ Exposure by Region
@@ -64,6 +65,7 @@ All data used in this project is **synthetic but realistic**, created for public
 - Default rate per region
 
 📄 SQL: `03_exposure_by_region.sql`
+
 📷 Output: `query3_exposure_by_region.png`
 
 ### 3️⃣ Payment Behavior Analysis
@@ -73,10 +75,12 @@ All data used in this project is **synthetic but realistic**, created for public
 - Comparison to portfolio average (window functions)
 
 📄 SQL: `04_payment_behavior.sql`
+
 📷 Output: `query4_payment_behavior.png`
 
 ## ⚠️ Disclaimer
 This project uses **synthetic data** and does not represent real customer information.
+
 
 
 
