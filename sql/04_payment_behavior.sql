@@ -1,7 +1,8 @@
---1. Setting Schema as Default
+-- Query 4: Payment Behavior
+-- Purpose: Analyze payment behavior by loan and compare late payments ratio to dataset average
+
 SET search_path TO credit_portfolio;
 
---2. Payment Behavior
 WITH loan_payment_stats AS (
     SELECT
         loan_id,
