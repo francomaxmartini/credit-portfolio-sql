@@ -39,12 +39,15 @@ credit-portfolio-sql/
 All data used in this project is **synthetic but realistic**, created for public sharing and portfolio use.
 
 - **customers.csv**
+
 Customer demographics and region
 
 - **loans.csv**
+
 Loan characteristics and status (Active, Defaulted, Closed)
 
 - **payments.csv**
+
 Historical payment behavior (On-time, Late, Missed)
 
 ## 📈 Analytical Queries
@@ -80,6 +83,7 @@ Historical payment behavior (On-time, Late, Missed)
 
 ## ⚠️ Disclaimer
 This project uses **synthetic data** and does not represent real customer information.
+
 
 
 
