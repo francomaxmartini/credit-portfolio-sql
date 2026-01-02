@@ -27,6 +27,7 @@ credit-portfolio-sql/
 │   ├── query3_exposure_by_region.png
 │   └── query4_payment_behavior.png
 │
+└── INSIGHTS.md
 └── README.md
 ```
 
@@ -81,11 +82,13 @@ Historical payment behavior (On-time, Late, Missed)
 
 📷 Output: `query4_payment_behavior.png`
 
+## 📌 Key Insights
+A summary of the main findings and business implications derived from the analysis is available here:
+
+👉 [INSIGHTS.md](INSIGHTS.md)
+
 ## ⚠️ Disclaimer
 This project uses **synthetic data** and does not represent real customer information.
-
-
-
 
 
 
